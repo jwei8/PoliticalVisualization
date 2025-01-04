@@ -1,0 +1,36 @@
+/* Todo: add styles */
+.example-arrow-class {
+    /*
+     * The marker-end attribute changes the style of the class to have the
+     * corresponding style. By changing the class on the svg object and assigning
+     * each marker-end to a different class, you'll be able to change the arrow
+     * styles accordingly.
+     */
+    marker-end: url(#arrow-head);
+    marker-end: url(#arrow-head-hovered);
+    marker-end: url(#arrow-head-highlighted);
+    marker-end: url(#arrow-head-highlighted-selected);
+}
+
+/* set the margin bottom of country-selector */
+#country-selector {
+    margin-bottom: 15px;
+}
+
+
+/*from p1 */
+#tooltip {
+    position: absolute;
+    display: none;
+    background: #fff;
+    box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+    border: 1px solid #ddd;
+    font-size: 11px;
+    padding: 8px;
+    color: #333;
+}
+
+svg {
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+}
