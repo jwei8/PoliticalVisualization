@@ -1,1 +1,1 @@
-reference: chatbot GBT
+A data visualization that showcase the polictical leaders of different countries grouped by different nation alliances. The use of BarChart, LexiChart, and ScatterPlot creates a dashboard view of the country's economical conditions during the time of their leadership.
